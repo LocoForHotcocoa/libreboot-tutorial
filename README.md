@@ -1,6 +1,6 @@
 # tutorial for libreboot install
 This is the tutorial I found to install libreboot on the thinkpad t480, and is the basis for these instructions:
-- https://youtu.be/8c-ODWXg6F8?si=eTBoYAKRMVxwVVA6
+- https://youtu.be/8c-ODWXg6F8
 - https://github.com/radleylewis/t480_libreboot/
 
 I really liked his idea to use docker, but I wanted to run the setup scripts myself in the docker container (instead of using a dockerfile, like this author does). I'm pretty sure these setup steps work for any supported hardware!
