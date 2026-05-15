@@ -24,7 +24,7 @@ the NIC will be listed as `enp1s0` or `eth0`, or something similar to that. the 
 ### create new ROM with lbmk
 ```shell
 # 1. start debian container
-docker run -it debian:bookworm --name libreboot_env
+docker run -it --name libreboot_env debian:bookworm
 
 # 2. regular docker set up
 apt-get update && apt-get install -y \
